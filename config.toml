@@ -1,0 +1,33 @@
+# The URL the site will be built for
+base_url = "https://tsg-dev.github.io"
+
+theme = "project-portfolio"
+
+taxonomies = [
+    {name = "projects", paginate_by = 5, feed = true},
+    {name = "testimonials", paginate_by = 5, feed = true},
+]
+
+[translations]
+language_symbol = "🇬🇧"
+home = "Home"
+projects = "Projects"
+testimonials = "Testimonials"
+read_more = "Read More"
+
+
+[extra]
+[extra.navbar]
+title = "The Social Grower"
+
+[extra.index]
+title = "The Social Grower"
+slogan = "growth - nature and nuture"
+image = "tsg-main.jpg"
+image_alt = "Placeholder text describing the index's image."
+
+[extra.social]
+instagram = "https://instagram.com/"
+x = "https://x.com/"
+linkedin = "https://www.linkedin.com/"
+email = "john.doe@gmail.com"

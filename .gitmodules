@@ -1,0 +1,4 @@
+[submodule "themes/project-portfolio"]
+	path = themes/project-portfolio
+	url = git@github-first:brespina/zola-theme-project-portfolio.git
+	branch = main
